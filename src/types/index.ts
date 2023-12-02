@@ -4,7 +4,6 @@ interface Pagination {
     offset: number;
     total_pages: number;
     current_page: number;
-    next_url: string;
 }
 
 export interface ImageType {
